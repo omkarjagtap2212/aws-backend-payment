@@ -50,7 +50,7 @@ export const paymentsVerfication = async (req, res) => {
 
 
 
-        return res.redirect(`http://localhost:5173/paymentSuccess?refrence=${razorpay_payment_id}`)
+        return res.redirect(`https://www.omkarjagtap.work/paymentSuccess?refrence=${razorpay_payment_id}`)
 
 
     }
